@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LightSensor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:id="@+id/tv"
+        />
+
+    <Switch
+        android:id="@+id/sw_s"
+        android:layout_width="336dp"
+        android:layout_height="198dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="117dp"
+        android:text="Sound"
+        android:textSize="25dp" />
+
+    <Switch
+        android:id="@+id/sw_v"
+        android:layout_width="336dp"
+        android:layout_height="182dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:text="Vibration"
+        android:textSize="25dp" />
+</RelativeLayout>
